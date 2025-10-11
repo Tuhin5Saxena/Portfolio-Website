@@ -1,0 +1,103 @@
+/* General Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #6b6bb4;
+  color: #0c0808;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #4b0467, #136379);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+/* Section Styling */
+section {
+  background-color: #fff;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #5a1073;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #114479;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+section h5 {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Lists */
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+/* Contact Links */
+a {
+  color: #150e92;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px 0;
+  color: #777;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
