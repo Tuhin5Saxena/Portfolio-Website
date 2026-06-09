@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tuhin Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navcontainer">
+        <div class="logo">
+          <span>Tuhin Saxena</span>
+        </div>
+        <div class="links">
+          <div class="link" onclick="cancel()"><a href="#Home">Home</a></div>
+          <div class="link" onclick="cancel()"><a href="#About">About</a></div>
+          <div class="link" onclick="cancel()"><a href="#Skills">Skills</a></div>
+          <div class="link contact-btn" onclick="cancel()"><a href="#Contact">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#Home" onclick="cancel()">Home</a>
+          <a href="#About" onclick="cancel()">About</a>
+          <a href="#Skills" onclick="cancel()">Skills</a>
+          <a href="#Contact" onclick="cancel()">Contact</a>
+          <i class="fa-solid fa-x cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+    <section id="Home">
+    
+      <div class="main-container">
+        <div class="image">
+          <img src="photo.png" alt="" />
+        </div>
+        <div class="content">
+          <h1>Hey I,m <span>Tuhin</span></h1>
+          <div class="typewriter">I'm a <span></span></div>
+          <div class="social-links">
+            <a href="https://github.com/Tuhin5Saxena"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/tuhin-saxena-5296b5331"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="btn">
+            <a href="Resume.pdf" download >
+            <button>Download CV</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="About">
+      <div class="about-container">
+        <h1>About Me</h1>
+
+        <p>
+          Hello! I'm Tuhin Saxena, an Electronics and Communication Engineering
+          student interested in Embedded Systems, IoT, Web Development and
+          Machine Learning. I enjoy building real-world projects and
+          continuously improving my programming and problem-solving skills.
+          
+        </p>
+        <a href="#Home">Back</a>
+      </div>
+    </section>
+    <section id="Skills">
+      <div class="skills-container">
+        <h1>Skills</h1>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>C Programming</li>
+          <li>Machine Learning</li>
+          <li>Embedded Systems</li>
+        </ul>
+          <a href="#Home">Back</a>
+
+      </div>
+    </section>
+    <section id="Contact">
+      <div class="contact-container">
+        <h1>Contact Me</h1>
+
+        <p>Email: tuhinsaxena005@gmail.com</p>
+
+        <p>Contact NO.-7905718532</p>
+          <a href="#Home">Back</a>
+
+      </div>
+    </section>
+    
+    <script>
+      function hamburg() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = "translateY(0px)";
+      }
+      function cancel() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = "translateY(-500px)";
+      }
+    </script>
+  </body>
+</html>
