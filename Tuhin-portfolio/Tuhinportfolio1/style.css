@@ -13,7 +13,7 @@ body{
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background:linear-gradient(to right,rgb(255,255,255),rgb(234, 135, 239));
+    background:linear-gradient(to right,rgb(255,255,255),rgb(180, 96, 185));
   
 }
 nav{
@@ -87,12 +87,12 @@ nav{
     transition: 0.3s linear;
 }
 .navcontainer .contact-btn:hover{
-    background-color: rgb(98, 64, 129);
+    background-color: rgb(170, 31, 177);
 
 }
 
 .navcontainer .links a:hover{
-    color: rgb(113, 91, 134);
+    color: rgb(170, 31, 177);
 }
 .dropdown{
     z-index:100;
@@ -122,7 +122,7 @@ nav{
 
 }
 .dropdown .links a:hover{
-    background-color: rgb(53, 7, 96);
+    background-color: rgb(170, 31, 177);
 }
 section{
     width: 100%;
@@ -152,8 +152,8 @@ section{
 }
 
 .content h1 span{
-    color: rgb(147, 11, 99);
-    text-shadow: 0 0 10px rgb(238, 15, 246);
+    color: rgb(126, 7, 120);
+    text-shadow: 0 0 10px rgb(192, 50, 197);
 }
 .content .typewriter{
     font-weight: 600;
@@ -161,7 +161,7 @@ section{
 
 }
 .content .typewriter span{
-    color: rgb(157, 20, 114);
+    color: rgb(126, 7, 120);
     font-size: 2.5rem;
     text-shadow: 0 0 5px rgb(113, 91, 134);
     position: relative;
@@ -188,9 +188,9 @@ section{
 .contact-container{
     max-width: 950%;
     margin: auto;
-    border: 2px solid purple;
+    border: 2px solid rgb(84, 7, 80);
     border-radius: 10px;
-    background-color:rgb(142, 44, 142) ;
+    background-color:rgb(126, 7, 120) ;
     color: rgb(216, 206, 212);
     padding: 50px;
     
@@ -201,7 +201,7 @@ section{
 .contact-container h1{
     font-size: 2.5rem;
     margin-bottom: 20px;
-     color: rgb(237, 157, 246);
+     color: rgb(217, 162, 219);
      text-decoration:double;
 }
 
@@ -254,9 +254,9 @@ html{
     width: 3rem;
     height: 3rem;
     background-color:transparent;
-    border: 0.2rem solid rgb(161, 36, 109);
+    border: 0.2rem solid rgb(126, 7, 120);
     border-radius: 50%;
-    color:rgb(163, 25, 122);
+    color:rgb(126, 7, 120);
     margin: 10px 0px;
     font-size: 1.5rem;
     transition: 0.2s linear;}
@@ -266,12 +266,14 @@ html{
     color: white;
     background-color: rgb(238,15,246);
     filter:drop-shadow(0 0 10px rgb(238,15,246));
+    border: 0.2rem solid rgb(126, 7, 120);
+    border-radius: 50%;
 }
 .content button{
     width: 40%;
     height: 6vh;
     margin-top: 0px;
-    background-color: rgb(238, 15, 246);
+    background-color: rgb(126, 7, 120);
     color: white;
     border: none;
     outline: none;
